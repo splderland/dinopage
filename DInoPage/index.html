@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+            font-weight: bold;
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-left: 20px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #444;
+            color: #fff;
+        }
+
+        /* Video Container Styles */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <title>Dinosaurs</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Samuel Clayton's Dinosaur Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="iguanodon.html">Iguanodon</a></li>
+                <li><a href="therizinosaurus.html">Therizinosaurus</a></li>
+                <li><a href="stegosaurus.html">Stegosaurus</a></li>
+                <li><a href="paraceratherium.html">Paraceratherium</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Dinosaurs</h2>
+            <p>Dinosaurs were a diverse group of reptiles that dominated the terrestrial ecosystems for over 160 million years.</p>
+            <p>They varied greatly in size, appearance, and behavior, ranging from small, feathered creatures to colossal, fearsome predators.</p>
+        </section>
+
+        <section>
+            <h2>Featured Dinosaur: Iguanodon</h2>
+    
+            <p>The Iguanodon, a colossal herbivorous dinosaur, roamed the Earth during the Early Cretaceous period, approximately 125 million years ago.</p>
+            <p>Its name, meaning "iguana tooth," was inspired by its teeth's resemblance to those of the modern-day iguana.</p>
+        </section>
+
+        <section>
+            <h2>Interesting Facts</h2>
+            <ul>
+                <li>Dinosaurs first appeared during the Triassic period around 230 million years ago.</li>
+                <li>The largest known dinosaur is the Argentinosaurus, estimated to have been around 100 feet long and weighed about 100 tons.</li>
+                <li>Some dinosaurs were warm-blooded, while others were cold-blooded.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Video: Dinosaur Discoveries</h2>
+            <div class="video-container">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fOFq11f3wAI?si=oRI9WszWR9XVabm7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Exploring Different Species</h2>
+            <p>There were numerous fascinating dinosaur species. Explore more about Therizinosaurus, Stegosaurus, and Paraceratherium using the navigation links above!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Samuel Clayton's Dinosaur Blog</p>
+    </footer>
+</body>
+</html>
